@@ -1,0 +1,59 @@
+# QHSE Cube Source Additions
+
+Repository HEAD: `1122f06f98e5b064cddbeba383a4385c0fe83ff5`
+
+Supplemental direct dependencies for `SSAS.vwBridgePOVOFactsQHSE` and its downstream SQL views. This supplements, rather than replaces, `QHSE_Source_Manifest.md`. Files are exact tracked sources except credential-like values are redacted where detected; hashes refer to the original files.
+
+| Original repository path | Markdown source page | Bytes | SHA-256 | Export status |
+|---|---|---:|---|---|
+| `DBs/AzureSingleDB/DataStore2/Views/vwSuccessStory.sql` | [DBs/AzureSingleDB/DataStore2/Views/vwSuccessStory.sql](Repository/DBs/AzureSingleDB/DataStore2/Views/vwSuccessStory.sql.md) | 5052 | `d4651904fd04cded4fdb397a0a1c0f9ec264ad7eb956bdaa5bccc631e4a44079` | Added |
+| `DBs/AzureSingleDB/DataStore3/Views/vwAction.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwAction.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwAction.sql.md) | 20192 | `a37176bacf8db7e7848fb98b7dde97bf67dd90bb6932d8c8429044961fd9a143` | Already present |
+| `DBs/AzureSingleDB/DataStore3/Views/vwAudit.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwAudit.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwAudit.sql.md) | 5377 | `33dc4bd924333f78402606cb3d7b1b38ce97f0c189b56375a1f5e2e6a45f280c` | Already present |
+| `DBs/AzureSingleDB/DataStore3/Views/vwEvent.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwEvent.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwEvent.sql.md) | 18069 | `372a2a31a828189a1ab8513d12d1a847c4fc6c8e694d9b454fcf314ff4aab971` | Already present |
+| `DBs/AzureSingleDB/DataStore3/Views/vwGreenInitiative.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwGreenInitiative.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwGreenInitiative.sql.md) | 21890 | `f73eeb76f50d0d0b46b5d8f7f2183141b21aef6ef8f056a712b9f3e411ea622d` | Already present |
+| `DBs/AzureSingleDB/DataStore3/Views/vwIncident.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwIncident.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwIncident.sql.md) | 54832 | `6ebbc863110800aae11371f793f196cf49ecfa5ceceb67def86843a7e3b705b3` | Already present |
+| `DBs/AzureSingleDB/DataStore3/Views/vwInspection.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwInspection.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwInspection.sql.md) | 14452 | `d05abd81c009188a50a7a601e8f9b8ba5fac4718143b4b8aaeef469d5610444d` | Already present |
+| `DBs/AzureSingleDB/DataStore3/Views/vwObservation.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwObservation.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwObservation.sql.md) | 15709 | `14cab216d327b8f786902275860f048004f23bd472cc058404d84729773c909b` | Already present |
+| `DBs/AzureSingleDB/DataStore3/Views/vwPOVOSpecificData.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwPOVOSpecificData.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwPOVOSpecificData.sql.md) | 7525 | `1506e726a95541638766d1d9de252c6d20427c41ae9264e82d9bbab72cd526fc` | Already present |
+| `DBs/AzureSingleDB/DataStore3/Views/vwWorkingHour.sql` | [DBs/AzureSingleDB/DataStore3/Views/vwWorkingHour.sql](Repository/DBs/AzureSingleDB/DataStore3/Views/vwWorkingHour.sql.md) | 10950 | `569dfb81092887b82d958cff0a8f1b06545052dc8a167801a10b885ab92482e5` | Added |
+| `DBs/AzureSingleDB/DataStore4/Views/vwAction.sql` | [DBs/AzureSingleDB/DataStore4/Views/vwAction.sql](Repository/DBs/AzureSingleDB/DataStore4/Views/vwAction.sql.md) | 2821 | `4a203bd5ef09e00de9a985223f96ff250c6af00dbb676cde2e7e25c8af8ec8bf` | Added |
+| `DBs/AzureSingleDB/DataStore4/Views/vwAuditTarget.sql` | [DBs/AzureSingleDB/DataStore4/Views/vwAuditTarget.sql](Repository/DBs/AzureSingleDB/DataStore4/Views/vwAuditTarget.sql.md) | 13106 | `5cf9e8e1e7ceb9750a50d99b94ae299b2c0c65c8613e228a7a4d98bed61c2b1c` | Already present |
+| `DBs/AzureSingleDB/DataStore4/Views/vwIncident.sql` | [DBs/AzureSingleDB/DataStore4/Views/vwIncident.sql](Repository/DBs/AzureSingleDB/DataStore4/Views/vwIncident.sql.md) | 4148 | `36dfaa17fb004dc2dfe2ff062ffa94fbe94e9c60753499f4d8cfae56094c6126` | Added |
+| `DBs/AzureSingleDB/DataStore4/Views/vwIncidentIP.sql` | [DBs/AzureSingleDB/DataStore4/Views/vwIncidentIP.sql](Repository/DBs/AzureSingleDB/DataStore4/Views/vwIncidentIP.sql.md) | 17613 | `a045ab650493e613f643fc6b1f849b7bff2a22e6ad18a776c3cc317579a15400` | Already present |
+| `DBs/AzureSingleDB/DataStore5/Views/vwInspection.sql` | [DBs/AzureSingleDB/DataStore5/Views/vwInspection.sql](Repository/DBs/AzureSingleDB/DataStore5/Views/vwInspection.sql.md) | 1872 | `d9b1649ceee890f2e55d7e1b4bf8359125c3234775e92fd0ff3f2ac57894705c` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactAction.sql` | [DBs/AzureSingleDB/DWH/Tables/FactAction.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactAction.sql.md) | 18683 | `8e939d4c5fdf628398703c811cb515c3877a6f9cf22e797c2dc5526217473eef` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactAuditTarget.sql` | [DBs/AzureSingleDB/DWH/Tables/FactAuditTarget.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactAuditTarget.sql.md) | 13818 | `e5cea12ebbe3abc54edc76af90479ccde65ad93091eab35ed826843f82ad3c5d` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactEvent.sql` | [DBs/AzureSingleDB/DWH/Tables/FactEvent.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactEvent.sql.md) | 33917 | `d762e64d83a9b105851c30a8df08f2ba910375df17ee651b1b69e8ed4411130b` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactGreenInitiative.sql` | [DBs/AzureSingleDB/DWH/Tables/FactGreenInitiative.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactGreenInitiative.sql.md) | 39325 | `5dbd0027e8e53b47d7760ad51d813520e2a7c27705af60b44418d49d1e33996c` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactIncident.sql` | [DBs/AzureSingleDB/DWH/Tables/FactIncident.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactIncident.sql.md) | 81593 | `0cfbcc103b7812fae5ee49d5d71c1891dbed676bd282844ce8b0dbbc5c3feb31` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactIncidentIP.sql` | [DBs/AzureSingleDB/DWH/Tables/FactIncidentIP.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactIncidentIP.sql.md) | 15013 | `af8ff1cb287ed650d1d00ed73c104ceffc55a8b42fc52d464146312f16b1743a` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactInspection.sql` | [DBs/AzureSingleDB/DWH/Tables/FactInspection.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactInspection.sql.md) | 23985 | `7d449dda934717f96b0eab1b9d316373fa38b4222e35c08857130a9bc103b8f9` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactObservation.sql` | [DBs/AzureSingleDB/DWH/Tables/FactObservation.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactObservation.sql.md) | 34582 | `90855f284eb829ec93f401af479fcdf129ff4c1ae8ef3c1cb38d98b4e1ff0972` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactPOVOSpecificData.sql` | [DBs/AzureSingleDB/DWH/Tables/FactPOVOSpecificData.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactPOVOSpecificData.sql.md) | 20578 | `686fb13ed04cbd55464ef2c4543638d57af221024a817a7131c33311ff558542` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactSuccessStory.sql` | [DBs/AzureSingleDB/DWH/Tables/FactSuccessStory.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactSuccessStory.sql.md) | 28956 | `44651f22c263ca3b650a3b364d6bb6073001a72b4013003abba4b09e653a86e4` | Added |
+| `DBs/AzureSingleDB/DWH/Tables/FactWorkingHour.sql` | [DBs/AzureSingleDB/DWH/Tables/FactWorkingHour.sql](Repository/DBs/AzureSingleDB/DWH/Tables/FactWorkingHour.sql.md) | 15520 | `6c2cdd9b70d7a98b6620260a75477d9f9a030e15587212d4d3672ffb59be1a83` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactAction.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactAction.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactAction.sql.md) | 1218 | `66b28a00d188d8cbdd83e1b329423f0b86af1f195a9f99689e435b8f3986cfbc` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactAuditTarget.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactAuditTarget.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactAuditTarget.sql.md) | 460 | `0a36ec8724b125424ff5317da7bdbc5e90f9e3cf559e2b475ba9c70cc16bbfb5` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactEvent.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactEvent.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactEvent.sql.md) | 1532 | `78535023d82c5e78b5d541d46524466d06af88cce874671e9f33bec641be91dd` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactGreenInitiative.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactGreenInitiative.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactGreenInitiative.sql.md) | 1779 | `8527d3f239a5bdd40ac12587fc16a6c53a5adb9340491541f3d585215e093366` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactIncident.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactIncident.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactIncident.sql.md) | 10002 | `e168b33638ac8c3a629449a3bfa2c7034ef23d78947e15cc214bede8f966b32c` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactIncidentIP.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactIncidentIP.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactIncidentIP.sql.md) | 1233 | `289142154d9e13da3c995d04b4ee919a802fb5d4080ae2c2ba7d1946acaa88cb` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactInspection.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactInspection.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactInspection.sql.md) | 1072 | `1f2f76ee80d6f4d5a8382d3a30a26f769783fc5357b9808efb7b17c35d147de7` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactObservation.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactObservation.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactObservation.sql.md) | 1329 | `b98159d7e76f848736b7e2ae3357716a0ce5a6efdb70c7f1e288d5923e3edc04` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactPOVOSpecificData.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactPOVOSpecificData.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactPOVOSpecificData.sql.md) | 804 | `6e9732f21fa47d18313c518d4603fa9a669a7ba0ad78feed54c3f8bd8a845e08` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactSuccessStory.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactSuccessStory.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactSuccessStory.sql.md) | 1036 | `e1be0a9d762c3eeea2cc557f09ce69f80784a2b29b776f4ba3ce4e8e3217e907` | Added |
+| `DBs/AzureSingleDB/DWH/Views/vwFactWorkingHour.sql` | [DBs/AzureSingleDB/DWH/Views/vwFactWorkingHour.sql](Repository/DBs/AzureSingleDB/DWH/Views/vwFactWorkingHour.sql.md) | 650 | `2a8358ff7af89fd86cf5909029efed9b01fd1e73cf307aef473fa02e009ccf54` | Added |
+| `SeedData/ETL.StagingInputColumn.json` | [SeedData/ETL.StagingInputColumn.json](Repository/SeedData/ETL.StagingInputColumn.json.md) | 10998902 | `e211c1cadfc54c7d7a1f5e27f1ab54479ba628ac62cf062c934cb8e81b39d0b4` | Already present |
+| `SeedData/ETL.StagingInputTable.json` | [SeedData/ETL.StagingInputTable.json](Repository/SeedData/ETL.StagingInputTable.json.md) | 1031146 | `1f37b5104c9441c3a3353da7606f1bf08bbd48cb85c5f868a19140036df89435` | Already present |
+| `SeedData/ETL.StagingInputTarget.json` | [SeedData/ETL.StagingInputTarget.json](Repository/SeedData/ETL.StagingInputTarget.json.md) | 1520552 | `a1be409f50399fd916971e623d217748dc7296f0ad89075ed8a5c36e250443bc` | Already present |
+| `SeedData/ETL.StagingInputTargetLookup.json` | [SeedData/ETL.StagingInputTargetLookup.json](Repository/SeedData/ETL.StagingInputTargetLookup.json.md) | 886838 | `17d7a4c07f45e881063e0bfd81fa230ffdc83a6b8e18dca832adacc83f71949a` | Already present |
+
+The ETL JSON pages are large source configuration files. Search within them for the target/source objects cited in `QHSE_Cube_Lineage.md` instead of loading whole pages into a prompt.
+
+## Supplied SSAS Model Artifact
+
+- Artifact: `TEMP SSAS bim model/QHSE/QHSE.bim`
+- Source branch: SSAS `main`, latest as of 2026-10-13 per user; exact source commit not supplied.
+- Sanitized model extract: `QHSE_SSAS_Model_Extract.md`
+- SHA-256: `658e5fe3425325cd10264bbeef3f8b42f370419606d6b717abbe7faf5be65553`
+- Note: the raw BIM and deployment outputs are not copied here because they may contain environment-specific connection details. The extract records model structure, table bindings, and relationships only.
